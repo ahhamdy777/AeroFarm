@@ -1,0 +1,24 @@
+{
+  "name": "AeroFarm · ايروبينك فارم",
+  "short_name": "AeroFarm",
+  "description": "AeroFarm – aeroponic towers, seed packs, nutrient solutions and smart farming solutions for homes and projects. Idku, Beheira, Egypt.",
+  "id": "/aerofarm/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "background_color": "#EAF8F0",
+  "theme_color": "#1C3D4F",
+  "lang": "ar",
+  "dir": "auto",
+  "categories": ["shopping", "food", "business"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "المتجر / Shop", "url": "./index.html#shop" },
+    { "name": "تواصل / Contact", "url": "./index.html#contact" }
+  ]
+}
